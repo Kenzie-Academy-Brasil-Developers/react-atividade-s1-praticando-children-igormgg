@@ -5,11 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CenteredCard>
-          <h1>Children 1</h1>
-          <h1>Children 2</h1>
-          <h1>Children 3</h1>
-        </CenteredCard>
+        <div className="container">
+          <CenteredCard children="Children 1" />
+          <CenteredCard children="Children 2" />
+          <CenteredCard children="Children 3" />
+        </div>
       </header>
     </div>
   );

@@ -7,21 +7,27 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.divPai {
-  background-color: #a515e2;
-  width: 50%;
-  box-shadow: 5px 5px 10px black;
-}
-
-.divPai span {
+.container {
+  width: 800px;
   display: flex;
   justify-content: space-around;
 }
 
-.divPai h1 {
+.divPai {
+  background-color: #a515e2;
+  width: 30%;
+  height: 100px;
+  box-shadow: 5px 5px 10px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divPai span {
   font-size: 32px;
   color: white;
+  font-weight: bold;
 }
